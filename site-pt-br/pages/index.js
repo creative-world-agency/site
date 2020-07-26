@@ -2,14 +2,14 @@ import Head from 'next/head'
 //Reset Componente
 import { Reset } from 'styled-reset'
 //Componentes
-import { Template } from '../Components/Template/Style' //Template
+import { Template } from '../Components/Template/Style' 
 
 
 const Home = () => {
   return (
     <React.Fragment>
      <Reset />
-      <TemplateGibs>
+      <Template>
         <Head>
           <title>Creative World</title>
           <link rel="icon" href="/favicon.ico" />
@@ -23,8 +23,10 @@ const Home = () => {
           <meta property="og:image" content="" />
           <meta property="article:author" content="https://xordevweb.com.br" />
         </Head>
-        
-      </TemplateGibs>
+        <BannerHome>
+          
+        </BannerHome>
+      </Template>
    </React.Fragment>
   );
 }
