@@ -3,7 +3,7 @@ import Head from 'next/head'
 import { Reset } from 'styled-reset'
 //Componentes
 import { Template } from '../Components/Template/Style' 
-
+import BannerHome from '../Components/Header'
 
 const Home = () => {
   return (
@@ -23,9 +23,7 @@ const Home = () => {
           <meta property="og:image" content="" />
           <meta property="article:author" content="https://xordevweb.com.br" />
         </Head>
-        <BannerHome>
-          
-        </BannerHome>
+        <BannerHome />
       </Template>
    </React.Fragment>
   );

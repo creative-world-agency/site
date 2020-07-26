@@ -16,3 +16,8 @@ const ContainerLinksSocial = estilo.ul`
         text-decoration: none;
     }
 `;
+
+export {
+    ContainerAmarelo,
+    ContainerLinksSocial
+};
