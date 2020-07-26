@@ -3,7 +3,7 @@ import estilo from 'styled-components'
 const ContainerAmarelo = estilo.div`
     background-color: #FFE17C;
     min-height: 100vh;
-    width: 20%;
+    width: 60px;
 `;
 //Social
 const ContainerLinksSocial = estilo.ul`

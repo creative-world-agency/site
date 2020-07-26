@@ -3,12 +3,14 @@ import Link from 'next/head'
 //Componentes Banner
 import {
   Banner,
+  MediumContainer,
   TitleBanner
 } from './ContainersHeader/Style'
 import {
   ContainerAmarelo,
   ContainerLinksSocial
 } from './Social/Style'
+import { Container, Column, Row } from '../Grids/Style'
 
 
 
@@ -18,9 +20,21 @@ const BannerHome = () => {
       <Banner>
         <ContainerAmarelo>
           <ContainerLinksSocial>
-            
+
           </ContainerLinksSocial>
         </ContainerAmarelo>
+        <MediumContainer>
+          <Container>
+            <Row>
+              <Column>
+
+              </Column>
+              <Column>
+              
+              </Column>
+            </Row>
+          </Container>
+        </MediumContainer>
       </Banner>
     </>
   );
