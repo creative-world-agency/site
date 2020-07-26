@@ -13,9 +13,10 @@ const Home = () => {
         <Head>
           <title>Creative World</title>
           <link rel="icon" href="/favicon.ico" />
-          <meta name="author" content="" />
-          <meta name="description" content="" />
-          <meta name="keywords" content="" />
+          <meta name="author" content="Coffee Soluções (André Rodrigues)" />
+          <meta name="description" content="Site sobre design UI/UX" />
+          <meta name="keywords" content="UI, UX, Design, modelagem 3D, PhotoShop, Illustrator, Mockups" />
+          <meta name="robots" content="index, follow" />
         </Head>
         
       </TemplateGibs>
